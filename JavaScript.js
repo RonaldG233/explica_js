@@ -13,6 +13,8 @@ console.clear();
 
 
 
+
+
 // cadenas de texto 
 let nombre="ronald";
 let apellido="gallo";
@@ -112,8 +114,86 @@ console.clear();
 // let respuesta=anonima(25);
 // console.log(respuesta);
 
-function * nombre() {
-    yield(1);
-    yield(2);
+
+
+
+// function * nombre() {
+//     yield(1);
+//     yield(2);
     
+// }
+
+// console.log(generadora.text())
+
+
+
+// --------------------------------
+
+
+// let parametro=25;
+// (function() {
+//     alert("sin llamarme")
+// })()
+
+//---------------------------------------
+
+
+// const flecha=(a,b)=>{
+//     return a*b;
+// }
+
+// let respuesta =flecha(4,5);
+
+//--------------------------
+
+
+// arrays->arreglos
+
+// const a=[1,"letras", true, false,[1,"letras"]];
+// console.log (a);
+// a.push("ronald");
+// a.pop()
+
+// console.log(a[4][1]);
+
+// objetos
+
+const persona ={
+    nombre:"ronald",
+    apellido: "gallo",
+    edad:17,
+    saludar: function () {
+        return `hola soy ${this.nombre}`;
+        
+    }
+
 }
+
+persona.pais="Colombia";
+
+persona.adios= function(){
+    return `se despidio ${this.nombre}`
+}
+
+
+// console.log(persona.saludar());
+// console.log(persona);
+
+// console.log(persona.adios());
+
+// console.log(Object.keys(persona).indexOf(genero));
+// if (Object.keys(persona).indexOf("genero") === -1) {
+//     console.log("el atributo no fue definido");
+    
+// }
+
+  
+// console.log(Object.keys(persona).includes("pais"));
+
+
+
+
+
+
+
+  
