@@ -90,18 +90,76 @@
 // const numeros=[1,2,3,4];
 // let a=numeros
 
-const persona ={
-    nombre:"Ronald Alejandro",
-    apellido:"gallo castellanos",
-    edad:17,
+// const persona ={
+//     nombre:"Ronald Alejandro",
+//     apellido:"gallo castellanos",
+//     edad:17,
 
-};
+// };
 
-const {nombre, apellido, edad}=persona;
-console.log(nombre,apellido,edad);
-
+// const {nombre, apellido, edad}=persona;
+// console.log(nombre,apellido,edad);
+//-----------------------------------------------------------------------------------------------------
   
+  //parametros----------------------------------------------------------------------------
+
+
+  //   function suma(a,b, ...c) {
+//     let resultado =0;
+//     console.log(typeof a);
+//     console.log(typeof b);
+//     console.log(typeof c);
+//     for (let i = 0; i < c.length; i++) {
+//         if (typeof(c[i])==="number") resultado+=c[i] 
+        
+//     }
+//     if (typeof (a)=== "number")resultado+=a
+//     if (typeof (b)=== "number")resultado+=b 
+//     return resultado;
+//     // return a+b+c;
+//   }
+
+//   let resultado=suma("dos",9,21,1,5,"cuatro",8,9);
+//   console.log(resultado);
+
+//----------OPERADOR SPREAD-------------------------------------------------------------------------------------------------
+
+// const arrayA=[1,2,3];
+// const arrayB=["a","b","c"];
+
+// const arrayC=arrayA+ arrayB;
+// const arrayC=arrayA.concat(arrayB);
+// const arrayC=[...arrayA, ...arrayB];
+
+// console.log(arrayC);    
+
+//-----------------------------------------------------------------------------------------------------------------
   
+// class Persona {
+//      constructor(nombreA,apellidoA,edadA){
+//         this.nombre=nombreA;
+//         this.apellido=apellidoA;
+//         this.edad=edadA;
+//      }
+//      //metodos
+//      Comer(){
+//         console.log(`${this.nombre} esta comiendo empanada`);
+        
+//      }
+// }
+
+// class Aprendiz extends Persona {
+    
+// }
+
+// const Ronald= new Aprendiz("Ronald","Gallo",17);
+
+// const edwin= new Aprendiz("edwin","villabona",18);
+// Ronald.Comer();
+// edwin.Comer();
+  
+//---------------------------------------------------------------
+
 
 
   
